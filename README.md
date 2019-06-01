@@ -29,6 +29,8 @@ Once you have found the name, create the SSC output using the -s parameter along
 
 Both the name of the category and the name of the satellite are case sensitive.
 
+After generating the ssc file and putting it in the Celestia 'extras' or 'extras-standard' folder, Celestia must be restarted for changes to take effect.
+
 ## Optional parameters
 You can choose the mesh model to with the -m argument:   
 `python translate_orbit.py -c stations -s "ISS (ZARYA)" -m iss.cmod `
